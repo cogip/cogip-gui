@@ -24,11 +24,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+    mainwindow.cpp \
+    mapgraphicsview.cpp \
+    robotgraphicsitem.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    mapgraphicsview.h \
+    robotgraphicsitem.h
 
 FORMS    += mainwindow.ui
 
 RESOURCES += \
     ressources.qrc
+
+QT += svg
