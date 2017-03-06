@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>svg/cortex.svg</file>
+        <file>svg/playing_area.svg</file>
+    </qresource>
+</RCC>
