@@ -15,6 +15,10 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void onHorizSliderBotPosAngleValueChanged(int);
+    void on_actionZoomFit_triggered();
+
 private:
     Ui::MainWindow *ui;
 };
