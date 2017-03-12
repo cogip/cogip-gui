@@ -27,9 +27,6 @@ MapGraphicsView::MapGraphicsView(QWidget *parent)
 //    setDragMode(ScrollHandDrag);
 
     setScene(new MapGraphicsScene(this));
-
-    connect(scene(), &QGraphicsScene::selectionChanged,
-            this, &MapGraphicsView::sceneSelectionChanged);
 }
 
 MapGraphicsView::~MapGraphicsView()
@@ -63,19 +60,6 @@ void MapGraphicsView::wheelEvent(QWheelEvent *e)
     } else {
         QGraphicsView::wheelEvent(e);
     }
-}
-
-void MapGraphicsView::sceneSelectionChanged()
-{
-    qDebug() << __func__;
-    if (!scene()->selectedItems().isEmpty()
-        && scene()->selectedItems()[0] == m_robotItem)
-    {
-        qDebug() << "robot selected";
-        emit displayPropsWidget(m_robotWidget);
-    }
-    else
-        emit displayPropsWidget();
 }
 
 void MapGraphicsView::zoomFit()

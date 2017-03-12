@@ -10,6 +10,11 @@ class RobotGraphicsItem : public QGraphicsSvgItem
 public:
     RobotGraphicsItem(RobotPropsWidget *widget);
     ~RobotGraphicsItem();
+
+    inline RobotPropsWidget* getPropsRef() const {
+        return m_props;
+    }
+
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 
     void setPos(const QPointF &pos);

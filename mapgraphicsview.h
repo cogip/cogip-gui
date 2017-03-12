@@ -22,8 +22,6 @@ public:
     ~MapGraphicsView();
     void setPropsWidgetContainer(QWidget *propsContainer);
 
-    void sceneSelectionChanged();
-
     void zoomFit();
 
 signals:
