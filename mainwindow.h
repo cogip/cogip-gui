@@ -21,6 +21,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    QWidget *m_currentDockedChild;
 };
 
 #endif // MAINWINDOW_H

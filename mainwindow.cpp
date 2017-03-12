@@ -3,9 +3,10 @@
 
 #include "mapgraphicsscene.h"
 
-MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::MainWindow)
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
+    , ui(new Ui::MainWindow)
+    , m_currentDockedChild(NULL)
 {
     ui->setupUi(this);
     ui->graphicsView->setPropsWidgetContainer(ui->dockWidget);
@@ -19,13 +20,20 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+#include <QDebug>
+
 void MainWindow::changePropsWidget(QWidget *w)
 {
     if (w) {
-        ui->dockWidget->setWidget(w);
+        ui->verticalLayoutDocked->addWidget(w);
         w->show();
+
+        m_currentDockedChild = w;
     } else {
-        ui->dockWidget->setWidget(ui->dockWidgetContents);
+        ui->verticalLayoutDocked->removeWidget(m_currentDockedChild);
+        m_currentDockedChild->hide();
+
+        m_currentDockedChild = NULL;
     }
 }
 
