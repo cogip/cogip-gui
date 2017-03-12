@@ -3,19 +3,22 @@
 
 #include <QGraphicsSvgItem>
 
-#include "mapgraphicsscene.h"
+class RobotPropsWidget;
 
 class RobotGraphicsItem : public QGraphicsSvgItem
 {
 public:
-    RobotGraphicsItem();
+    RobotGraphicsItem(RobotPropsWidget *widget);
+    ~RobotGraphicsItem();
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 
-    friend class MapGraphicsScene;
+    void setPos(const QPointF &pos);
 
 protected:
     QVariant itemChange(GraphicsItemChange change, const QVariant &value);
 
+private:
+    RobotPropsWidget *m_props;
 };
 
 #endif // ROBOTGRAPHICSITEM_H

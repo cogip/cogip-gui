@@ -19,8 +19,6 @@
      <widget class="MapGraphicsView" name="graphicsView"/>
     </item>
    </layout>
-   <zorder>graphicsView</zorder>
-   <zorder>groupBox</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -53,55 +51,6 @@
    <widget class="QWidget" name="dockWidgetContents">
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
-      <widget class="QGroupBox" name="groupBox">
-       <property name="title">
-        <string>Position</string>
-       </property>
-       <layout class="QGridLayout" name="gridLayout">
-        <item row="0" column="0">
-         <widget class="QLabel" name="label">
-          <property name="text">
-           <string>Bot X</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_2">
-          <property name="text">
-           <string>Bot Y</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="QSlider" name="horizontalSliderBotPosAngle">
-          <property name="maximum">
-           <number>360</number>
-          </property>
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QLineEdit" name="lineEditBotPosX"/>
-        </item>
-        <item row="1" column="1">
-         <widget class="QLineEdit" name="lineEditBotPosY"/>
-        </item>
-        <item row="2" column="1">
-         <widget class="QLineEdit" name="lineEditBotPosAngle"/>
-        </item>
-        <item row="2" column="0" rowspan="2">
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>Bot Th.</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-     </item>
-     <item>
       <spacer name="verticalSpacer">
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -133,10 +82,6 @@
  </customwidgets>
  <tabstops>
   <tabstop>graphicsView</tabstop>
-  <tabstop>lineEditBotPosY</tabstop>
-  <tabstop>lineEditBotPosX</tabstop>
-  <tabstop>lineEditBotPosAngle</tabstop>
-  <tabstop>horizontalSliderBotPosAngle</tabstop>
  </tabstops>
  <resources/>
  <connections/>

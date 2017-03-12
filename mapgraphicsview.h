@@ -3,6 +3,7 @@
 
 #include <QGraphicsView>
 
+class RobotPropsWidget;
 class RobotGraphicsItem;
 
 QT_BEGIN_NAMESPACE
@@ -19,20 +20,21 @@ class MapGraphicsView : public QGraphicsView
 public:
     explicit MapGraphicsView(QWidget *parent = NULL);
     ~MapGraphicsView();
+    void setPropsWidgetContainer(QWidget *propsContainer);
 
     void sceneSelectionChanged();
-    void robotMoved(qreal x, qreal y, qreal a);
 
     void zoomFit();
 
-public slots:
-    void robotRotate(int angle_deg);
+signals:
+    void displayPropsWidget(QWidget *w = NULL);
 
 protected:
     void wheelEvent(QWheelEvent *) override;
 
 private:
     QGraphicsSvgItem * m_backgroundItem;
+    RobotPropsWidget * m_robotWidget;
     RobotGraphicsItem * m_robotItem;
 };
 

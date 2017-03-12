@@ -14,9 +14,9 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    void changePropsWidget(QWidget *w);
 
 private slots:
-    void onHorizSliderBotPosAngleValueChanged(int);
     void on_actionZoomFit_triggered();
 
 private:

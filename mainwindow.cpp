@@ -1,14 +1,17 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+#include "mapgraphicsscene.h"
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->graphicsView->setPropsWidgetContainer(ui->dockWidget);
 
-    connect(ui->horizontalSliderBotPosAngle, &QSlider::valueChanged,
-            this, &MainWindow::onHorizSliderBotPosAngleValueChanged);
+    connect(ui->graphicsView, &MapGraphicsView::displayPropsWidget,
+            this, &MainWindow::changePropsWidget);
 }
 
 MainWindow::~MainWindow()
@@ -16,13 +19,14 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::onHorizSliderBotPosAngleValueChanged(int angle_deg)
+void MainWindow::changePropsWidget(QWidget *w)
 {
-    blockSignals(true);
-    ui->lineEditBotPosAngle->setText(QString::number(angle_deg));
-    blockSignals(false);
-
-    ui->graphicsView->robotRotate(angle_deg);
+    if (w) {
+        ui->dockWidget->setWidget(w);
+        w->show();
+    } else {
+        ui->dockWidget->setWidget(ui->dockWidgetContents);
+    }
 }
 
 void MainWindow::on_actionZoomFit_triggered()

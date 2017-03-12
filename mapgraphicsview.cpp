@@ -8,6 +8,7 @@
 
 #include "mapgraphicsscene.h"
 #include "robotgraphicsitem.h"
+#include "robotpropswidget.h"
 
 MapGraphicsView::MapGraphicsView(QWidget *parent)
     : QGraphicsView(parent)
@@ -27,31 +28,26 @@ MapGraphicsView::MapGraphicsView(QWidget *parent)
 
     setScene(new MapGraphicsScene(this));
 
-    m_backgroundItem = new QGraphicsSvgItem(":/svg/playing_area.svg");
-    scene()->setSceneRect(m_backgroundItem->boundingRect());
-    scene()->addItem(m_backgroundItem);
-
-    m_robotItem = new RobotGraphicsItem();
-    scene()->addItem(m_robotItem);
-
-    MapGraphicsScene *sc = dynamic_cast<MapGraphicsScene *>(scene());
-    sc->setRobotItem(m_robotItem);
-
-    // Maybe we should rotate the view?
-    //rotate(180);
-
     connect(scene(), &QGraphicsScene::selectionChanged,
             this, &MapGraphicsView::sceneSelectionChanged);
-
-    connect(sc, &MapGraphicsScene::robotMoved,
-            this, &MapGraphicsView::robotMoved);
 }
 
 MapGraphicsView::~MapGraphicsView()
 {
-    delete m_robotItem;
+    delete m_robotWidget;
     delete m_backgroundItem;
     delete scene();
+}
+
+void MapGraphicsView::setPropsWidgetContainer(QWidget *propsContainer)
+{
+    m_backgroundItem = new QGraphicsSvgItem(":/svg/playing_area.svg");
+    scene()->setSceneRect(m_backgroundItem->boundingRect());
+    scene()->addItem(m_backgroundItem);
+
+    m_robotWidget = new RobotPropsWidget(propsContainer);
+    m_robotItem = m_robotWidget->getItemRef();
+    scene()->addItem(m_robotItem);
 }
 
 void MapGraphicsView::wheelEvent(QWheelEvent *e)
@@ -76,14 +72,10 @@ void MapGraphicsView::sceneSelectionChanged()
         && scene()->selectedItems()[0] == m_robotItem)
     {
         qDebug() << "robot selected";
-//        qDebug() << m_robotItem->pos();
-//        qDebug() << m_robotItem->rotation();
+        emit displayPropsWidget(m_robotWidget);
     }
-}
-
-void MapGraphicsView::robotMoved(qreal x, qreal y, qreal a)
-{
-    qDebug() << __func__ << x << y << a;
+    else
+        emit displayPropsWidget();
 }
 
 void MapGraphicsView::zoomFit()
@@ -91,10 +83,4 @@ void MapGraphicsView::zoomFit()
     Q_ASSERT(m_backgroundItem);
 
     fitInView(m_backgroundItem->boundingRect(), Qt::KeepAspectRatio);
-}
-
-void MapGraphicsView::robotRotate(int angle_deg)
-{
-    m_robotItem->setRotation(angle_deg);
-    //qDebug() << m_robotItem->pos() + m_robotItem->transformOriginPoint();
 }
