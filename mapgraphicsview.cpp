@@ -6,6 +6,7 @@
 #include <QMouseEvent>
 #include <QGraphicsSvgItem>
 
+#include "mapgraphicsscene.h"
 #include "robotgraphicsitem.h"
 
 MapGraphicsView::MapGraphicsView(QWidget *parent)
@@ -24,7 +25,7 @@ MapGraphicsView::MapGraphicsView(QWidget *parent)
 //    // Enable a view movement while clicking+mouseMove
 //    setDragMode(ScrollHandDrag);
 
-    setScene(new QGraphicsScene(this));
+    setScene(new MapGraphicsScene(this));
 
     m_backgroundItem = new QGraphicsSvgItem(":/svg/playing_area.svg");
     scene()->setSceneRect(m_backgroundItem->boundingRect());
@@ -33,8 +34,17 @@ MapGraphicsView::MapGraphicsView(QWidget *parent)
     m_robotItem = new RobotGraphicsItem();
     scene()->addItem(m_robotItem);
 
+    MapGraphicsScene *sc = dynamic_cast<MapGraphicsScene *>(scene());
+    sc->setRobotItem(m_robotItem);
+
     // Maybe we should rotate the view?
     //rotate(180);
+
+    connect(scene(), &QGraphicsScene::selectionChanged,
+            this, &MapGraphicsView::sceneSelectionChanged);
+
+    connect(sc, &MapGraphicsScene::robotMoved,
+            this, &MapGraphicsView::robotMoved);
 }
 
 MapGraphicsView::~MapGraphicsView()
@@ -57,6 +67,23 @@ void MapGraphicsView::wheelEvent(QWheelEvent *e)
     } else {
         QGraphicsView::wheelEvent(e);
     }
+}
+
+void MapGraphicsView::sceneSelectionChanged()
+{
+    qDebug() << __func__;
+    if (!scene()->selectedItems().isEmpty()
+        && scene()->selectedItems()[0] == m_robotItem)
+    {
+        qDebug() << "robot selected";
+//        qDebug() << m_robotItem->pos();
+//        qDebug() << m_robotItem->rotation();
+    }
+}
+
+void MapGraphicsView::robotMoved(qreal x, qreal y, qreal a)
+{
+    qDebug() << __func__ << x << y << a;
 }
 
 void MapGraphicsView::zoomFit()

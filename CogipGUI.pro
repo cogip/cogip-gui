@@ -26,11 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp\
     mainwindow.cpp \
     mapgraphicsview.cpp \
-    robotgraphicsitem.cpp
+    robotgraphicsitem.cpp \
+    mapgraphicsscene.cpp
 
 HEADERS  += mainwindow.h \
     mapgraphicsview.h \
-    robotgraphicsitem.h
+    robotgraphicsitem.h \
+    mapgraphicsscene.h
 
 FORMS    += mainwindow.ui
 

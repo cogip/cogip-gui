@@ -3,6 +3,8 @@
 
 #include <QGraphicsView>
 
+class RobotGraphicsItem;
+
 QT_BEGIN_NAMESPACE
 class QGraphicsSvgItem;
 //class QSvgRenderer;
@@ -18,6 +20,9 @@ public:
     explicit MapGraphicsView(QWidget *parent = NULL);
     ~MapGraphicsView();
 
+    void sceneSelectionChanged();
+    void robotMoved(qreal x, qreal y, qreal a);
+
     void zoomFit();
 
 public slots:
@@ -28,7 +33,7 @@ protected:
 
 private:
     QGraphicsSvgItem * m_backgroundItem;
-    QGraphicsSvgItem * m_robotItem;
+    RobotGraphicsItem * m_robotItem;
 };
 
 #endif // MAPGRAPHICSVIEW_H
