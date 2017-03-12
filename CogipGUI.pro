@@ -27,14 +27,17 @@ SOURCES += main.cpp\
     mainwindow.cpp \
     mapgraphicsview.cpp \
     robotgraphicsitem.cpp \
-    mapgraphicsscene.cpp
+    mapgraphicsscene.cpp \
+    robotpropswidget.cpp
 
 HEADERS  += mainwindow.h \
     mapgraphicsview.h \
     robotgraphicsitem.h \
-    mapgraphicsscene.h
+    mapgraphicsscene.h \
+    robotpropswidget.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    robotpropswidget.ui
 
 RESOURCES += \
     ressources.qrc
