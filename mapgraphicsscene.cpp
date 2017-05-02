@@ -28,5 +28,5 @@ void MapGraphicsScene::onParentSceneSelectionChanged()
 
     RobotGraphicsItem *item = dynamic_cast<RobotGraphicsItem *>(selectedItems()[0]);
     Q_ASSERT(item);
-    emit view->displayPropsWidget((QWidget *)item->getPropsRef());
+    //emit view->displayPropsWidget((QWidget *)item->getPropsRef());
 }

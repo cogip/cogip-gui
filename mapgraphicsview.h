@@ -3,7 +3,6 @@
 
 #include <QGraphicsView>
 
-class RobotPropsWidget;
 class RobotGraphicsItem;
 
 QT_BEGIN_NAMESPACE
@@ -32,7 +31,6 @@ protected:
 
 private:
     QGraphicsSvgItem * m_backgroundItem;
-    RobotPropsWidget * m_robotWidget;
     RobotGraphicsItem * m_robotItem;
 };
 

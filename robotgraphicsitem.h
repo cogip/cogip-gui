@@ -3,17 +3,11 @@
 
 #include <QGraphicsSvgItem>
 
-class RobotPropsWidget;
-
 class RobotGraphicsItem : public QGraphicsSvgItem
 {
 public:
-    RobotGraphicsItem(RobotPropsWidget *widget);
+    RobotGraphicsItem();
     ~RobotGraphicsItem();
-
-    inline RobotPropsWidget* getPropsRef() const {
-        return m_props;
-    }
 
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 
@@ -23,7 +17,7 @@ protected:
     QVariant itemChange(GraphicsItemChange change, const QVariant &value);
 
 private:
-    RobotPropsWidget *m_props;
+    QWidget *m_props;
 };
 
 #endif // ROBOTGRAPHICSITEM_H

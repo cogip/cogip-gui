@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>svg/cortex.svg</file>
         <file>svg/playing_area.svg</file>
+        <file>svg/Robot_playing_area_small.svg</file>
+        <file>svg/cortex_small.svg</file>
     </qresource>
 </RCC>

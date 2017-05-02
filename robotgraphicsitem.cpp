@@ -1,21 +1,20 @@
 #include "robotgraphicsitem.h"
 
 #include <QDebug>
-#include "robotpropswidget.h"
 
-RobotGraphicsItem::RobotGraphicsItem(RobotPropsWidget *widget)
+RobotGraphicsItem::RobotGraphicsItem()
     : QGraphicsSvgItem(":/svg/cortex.svg")
-    , m_props(widget)
 {
     setFlag(QGraphicsItem::ItemIsMovable);
     setFlag(QGraphicsItem::ItemIsSelectable);
     setFlag(QGraphicsItem::ItemSendsGeometryChanges);
 
-    // as opacity is changed in paint(), we filter the related event
+//    as opacity is changed in paint(), we filter the related event
 //    setFlag(QGraphicsItem::ItemOpacityChange, false);
 //    setFlag(QGraphicsItem::ItemOpacityHasChanged, false);
 
     setTransformOriginPoint(boundingRect().width() / 2, boundingRect().height() / 2);
+    setOpacity(1);
 }
 
 RobotGraphicsItem::~RobotGraphicsItem()
@@ -26,7 +25,7 @@ void RobotGraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem 
 {
     QGraphicsSvgItem::paint(painter, option, widget);
 
-    setOpacity(isSelected() ? 1.0 : 0.3);
+    //setOpacity(isSelected() ? 1.0 : 0.3);
 }
 
 void RobotGraphicsItem::setPos(const QPointF &pos)
@@ -44,7 +43,7 @@ QVariant RobotGraphicsItem::itemChange(GraphicsItemChange change, const QVariant
         QPointF itemAbsPos = QPointF(pos().x() + round(boundingRect().width() / 2),
                                      pos().y() + round(boundingRect().height() / 2));
 
-        m_props->robotMoved(itemAbsPos.x(), itemAbsPos.y(), rotation());
+        //m_props->robotMoved(itemAbsPos.x(), itemAbsPos.y(), rotation());
     }
 
     return QGraphicsItem::itemChange(change, value);

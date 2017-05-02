@@ -1,14 +1,13 @@
-#include "mapgraphicsview.h"
-
 #include <qmath.h>
 #include <QDebug>
 #include <QWheelEvent>
 #include <QMouseEvent>
 #include <QGraphicsSvgItem>
+#include <QSizeF>
 
 #include "mapgraphicsscene.h"
+#include "mapgraphicsview.h"
 #include "robotgraphicsitem.h"
-#include "robotpropswidget.h"
 
 MapGraphicsView::MapGraphicsView(QWidget *parent)
     : QGraphicsView(parent)
@@ -19,6 +18,8 @@ MapGraphicsView::MapGraphicsView(QWidget *parent)
                    QPainter::HighQualityAntialiasing | QPainter::SmoothPixmapTransform);
     setTransformationAnchor(AnchorUnderMouse);
     setInteractive(true);
+    setMinimumHeight(901);
+    setMinimumWidth(601);
     //setViewportUpdateMode(FullViewportUpdate);
 
 //    // Enable a selection mode while clicking+mouseMove
@@ -31,7 +32,6 @@ MapGraphicsView::MapGraphicsView(QWidget *parent)
 
 MapGraphicsView::~MapGraphicsView()
 {
-    delete m_robotWidget;
     delete m_backgroundItem;
     delete scene();
 }
@@ -41,10 +41,6 @@ void MapGraphicsView::setPropsWidgetContainer(QWidget *propsContainer)
     m_backgroundItem = new QGraphicsSvgItem(":/svg/playing_area.svg");
     scene()->setSceneRect(m_backgroundItem->boundingRect());
     scene()->addItem(m_backgroundItem);
-
-    m_robotWidget = new RobotPropsWidget(propsContainer);
-    m_robotItem = m_robotWidget->getItemRef();
-    scene()->addItem(m_robotItem);
 }
 
 void MapGraphicsView::wheelEvent(QWheelEvent *e)
