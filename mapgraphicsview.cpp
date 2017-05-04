@@ -12,7 +12,7 @@
 MapGraphicsView::MapGraphicsView(QWidget *parent)
     : QGraphicsView(parent)
     , m_backgroundItem(NULL)
-    , m_robotItem(NULL)
+    , m_robotItem(this)
 {
     setRenderHints(QPainter::Antialiasing | QPainter::TextAntialiasing |
                    QPainter::HighQualityAntialiasing | QPainter::SmoothPixmapTransform);

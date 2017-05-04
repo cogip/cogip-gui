@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1217</width>
-    <height>706</height>
+    <width>1230</width>
+    <height>810</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,17 +48,17 @@
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
     </property>
    </widget>
-   <widget class="QGroupBox" name="grpPosition">
+   <widget class="QGroupBox" name="grpPositionCtrl">
     <property name="geometry">
      <rect>
       <x>910</x>
-      <y>10</y>
+      <y>80</y>
       <width>291</width>
-      <height>601</height>
+      <height>531</height>
      </rect>
     </property>
     <property name="title">
-     <string>Position</string>
+     <string>Position control</string>
     </property>
     <property name="flat">
      <bool>false</bool>
@@ -66,17 +66,7 @@
     <property name="checkable">
      <bool>false</bool>
     </property>
-    <widget class="QTableView" name="tablePositions">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>90</y>
-       <width>271</width>
-       <height>501</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lblX">
+    <widget class="QLabel" name="lblCtrlX">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -89,7 +79,7 @@
       <string>X :</string>
      </property>
     </widget>
-    <widget class="QLabel" name="lblY">
+    <widget class="QLabel" name="lblCtrlY">
      <property name="geometry">
       <rect>
        <x>90</x>
@@ -102,7 +92,7 @@
       <string>Y :</string>
      </property>
     </widget>
-    <widget class="QLabel" name="lblT">
+    <widget class="QLabel" name="lblCtrlT">
      <property name="geometry">
       <rect>
        <x>180</x>
@@ -115,7 +105,7 @@
       <string>ϑ :</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineX">
+    <widget class="QLineEdit" name="lineCtrlX">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -125,7 +115,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineY">
+    <widget class="QLineEdit" name="lineCtrlY">
      <property name="geometry">
       <rect>
        <x>110</x>
@@ -135,7 +125,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineT">
+    <widget class="QLineEdit" name="lineCtrlT">
      <property name="geometry">
       <rect>
        <x>200</x>
@@ -158,6 +148,107 @@
       <string>Append</string>
      </property>
     </widget>
+    <widget class="QTableView" name="tablePositions">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>271</width>
+       <height>431</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="grpPositionCurr">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>10</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Current position</string>
+    </property>
+    <widget class="QLabel" name="lblCurrX">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>X :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblCurrY">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>30</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Y :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblCurrT">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>30</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ϑ :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblCurrXVal">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblCurrYVal">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblCurrTVal">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>30</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -165,8 +256,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1217</width>
-     <height>25</height>
+     <width>1230</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
