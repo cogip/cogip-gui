@@ -37,8 +37,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="692"
+     inkscape:window-width="1600"
+     inkscape:window-height="836"
      id="namedview53"
      showgrid="false"
      fit-margin-top="0"
@@ -46,235 +46,240 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="2.162482"
-     inkscape:cx="162.76879"
+     inkscape:cx="162.30636"
      inkscape:cy="119.95172"
      inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <g
      id="Pocket049"
      transform="matrix(0.28147897,0,0,-0.28147897,45.155557,33.826735)"
-     style="stroke:#000000;stroke-opacity:1;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none">
+     style="stroke:#000000;stroke-opacity:1;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffccaa">
     <path
        id="Pocket049_f0000"
        d="m -60,120 -50,0 0,0 50,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <circle
        cx="65"
        cy="-35"
        r="1"
-       style="fill:#bfb07d;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle6" />
     <path
        id="Pocket049_f0002"
        d="m -60,120 0,-5 0,0 0,5 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0004"
        d="m -160,70 50,50 0,0 -50,-50 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0005"
        d="m -160,60 0,0 0,10 0,0 0,-10 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0006"
        d="m -60,115 20,0 0,0 -20,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0007"
        d="m -150,60 -10,0 0,0 10,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0008"
        d="m -40,115 0,-70 0,0 0,70 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0009"
        d="m -150,15 0,45 0,0 0,-45 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0010"
        d="m 40,45 0,0 -80,0 0,0 80,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0011"
        d="m -150,15 0,0 70,0 0,0 -70,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0012"
        d="m 40,45 0,70 0,0 0,-70 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0013"
        d="m -80,15 0,0 0,-50 0,0 0,50 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0014"
        d="m 40,115 20,0 0,0 -20,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0015"
        d="m -80,-35 0,0 -70,0 0,0 70,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0016"
        d="m 60,115 0,5 0,0 0,-5 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0017"
        d="m -150,-60 0,25 0,0 0,-25 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0018"
        d="m 110,120 -50,0 0,0 50,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0019"
        d="m -160,-60 10,0 0,0 -10,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0020"
        d="m 110,120 0,0 50,-50 0,0 -50,50 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0021"
        d="m -160,-60 0,0 0,-10 0,0 0,10 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0022"
        d="m 160,60 0,10 0,0 0,-10 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0023"
        d="m -110,-120 -50,50 0,0 50,-50 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0024"
        d="m 150,60 0,0 10,0 0,0 -10,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0025"
        d="m -110,-120 50,0 0,0 -50,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0026"
        d="m 150,15 0,45 0,0 0,-45 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0027"
        d="m -60,-110 0,-10 0,0 0,10 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0028"
        d="m 150,15 -70,0 0,0 70,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0029"
        d="m 60,-110 -120,0 0,0 120,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0030"
        d="m 80,15 0,-50 0,0 0,50 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0031"
        d="m 60,-120 0,10 0,0 0,-10 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0032"
        d="m 80,-35 70,0 0,0 -70,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0033"
        d="m 60,-120 50,0 0,0 -50,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0034"
        d="m 150,-60 0,25 0,0 0,-25 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0035"
        d="m 160,-70 0,0 -50,-50 0,0 50,50 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0036"
        d="m 160,-60 0,0 -10,0 0,0 10,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0037"
        d="m 160,-70 0,10 0,0 0,-10 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0038"
        d="m 60,-45 0,-10 0,0 0,10 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0039"
        d="m 60,-55 10,0 0,0 -10,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0040"
        d="m 70,-55 0,10 0,0 0,-10 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        id="Pocket049_f0041"
        d="m 70,-45 -10,0 0,0 10,0 0,0 z"
-       style="fill:#bfb07d;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;fill-rule:evenodd;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <circle
        cx="65"
        cy="-35"
        r="1"
-       style="fill:#bfb07d;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle47" />
     <circle
        cx="65"
        cy="-60"
        r="1"
-       style="fill:#bfb07d;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffccaa;stroke:#000000;stroke-width:1.00264053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle49" />
     <title
        id="title51">Pocket049</title>
   </g>
+  <path
+     style="opacity:1;fill:#eeffd9;fill-opacity:1;fill-rule:evenodd;stroke:#241f1c;stroke-width:0.28222221;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 7.2603263,60.391079 -6.94911859,-6.950027 0,-1.26759 0,-1.26759 1.40296609,-0.03704 1.4029661,-0.03704 0.034757,-3.490276 0.034757,-3.490276 9.8186321,-0.03345 9.818633,-0.03345 0.03377,-7.03271 c 0.02442,-5.085145 -0.0071,-7.081969 -0.113861,-7.210594 -0.122212,-0.147255 -1.818982,-0.177882 -9.854532,-0.177882 l -9.7069012,0 0,-6.173052 c 0,-4.627251 -0.039217,-6.212267 -0.1566102,-6.329661 -0.1005005,-0.100501 -0.61484,-0.15661 -1.4355933,-0.15661 l -1.27898299,0 0,-1.207656 0,-1.207657 7.01527939,-7.0143772 7.0152793,-7.01437726 6.877053,0 6.877052,0 0.03945,0.68516948 0.03945,0.68516948 2.772481,0.03522 2.77248,0.03522 0.03345,9.8181685 0.03345,9.81817 11.354237,0 11.354238,0 0.03345,-9.820763 0.03345,-9.8207618 2.713753,0 c 1.936682,0 2.758593,-0.044844 2.870358,-0.1566102 0.08614,-0.086136 0.156611,-0.409144 0.156611,-0.71779652 l 0,-0.56118644 6.88478,0 6.88478,0 6.949118,6.95002916 6.949118,6.9500278 0,1.26744 0,1.267438 -1.33771,0.03719 -1.337714,0.03719 -0.03388,6.296209 -0.03388,6.296209 -9.81951,0.03345 -9.81951,0.03345 0,7.177967 0,7.177967 9.818633,0.03345 9.818632,0.03345 0.03476,3.490277 0.03476,3.490276 1.337714,0.03719 1.33771,0.03719 0,1.268349 0,1.268349 -6.950029,6.949119 -6.950027,6.949118 -6.883872,0 -6.883868,0 0,-1.3026 c 0,-1.242834 -0.01346,-1.305851 -0.293644,-1.373482 -0.161504,-0.03899 -7.840297,-0.05479 -17.063982,-0.03511 l -16.770339,0.03577 -0.03719,1.337712 -0.03719,1.337711 -6.945467,0 -6.945468,0 -6.9491191,-6.95003 z M 63.80358,50.701278 c 0,-0.297558 -0.06538,-0.400865 -0.27244,-0.430451 -0.355038,-0.05073 -0.621459,0.27697 -0.510193,0.627538 0.06502,0.204868 0.175788,0.264629 0.434936,0.234654 0.290386,-0.03359 0.347697,-0.10475 0.347697,-0.431741 z m 1.174575,-2.805932 0,-1.500847 -1.305086,-0.03815 c -2.007401,-0.05869 -1.89237,-0.151726 -1.89237,1.530612 0,1.014555 0.04676,1.441699 0.163136,1.490145 0.08972,0.03736 0.809151,0.05693 1.598726,0.0435 l 1.435594,-0.02441 0,-1.500849 z M 63.80358,43.653823 c 0,-0.297561 -0.06538,-0.400869 -0.27244,-0.430451 -0.355038,-0.05073 -0.621459,0.27697 -0.510193,0.627538 0.06502,0.204868 0.175788,0.264625 0.434936,0.23465 0.290386,-0.03358 0.347697,-0.104746 0.347697,-0.431737 z"
+     id="path3389"
+     inkscape:connector-curvature="0" />
 </svg>
