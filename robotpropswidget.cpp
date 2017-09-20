@@ -60,6 +60,6 @@ void RobotPropsWidget::on_horizontalSliderAngle_valueChanged(int angle)
 //    qDebug() << __func__ << angle;
     blockSignals(true);
     ui->lineEditAngle->setText(QString::number(angle));
-    m_item->setRotation(angle);
+    m_item->setRotation(90-angle);
     blockSignals(false);
 }

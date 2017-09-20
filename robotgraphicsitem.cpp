@@ -26,13 +26,15 @@ void RobotGraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem 
 {
     QGraphicsSvgItem::paint(painter, option, widget);
 
-    setOpacity(isSelected() ? 1.0 : 0.3);
+//    setOpacity(isSelected() ? 1.0 : 0.3);
 }
 
 void RobotGraphicsItem::setPos(const QPointF &pos)
 {
     QPointF itemAbsPos = QPointF(pos.x() - round(boundingRect().width() / 2),
                                  pos.y() - round(boundingRect().height() / 2));
+
+    itemAbsPos.setY(2000 + itemAbsPos.y());
 
     QGraphicsItem::setPos(itemAbsPos);
 }
@@ -44,7 +46,9 @@ QVariant RobotGraphicsItem::itemChange(GraphicsItemChange change, const QVariant
         QPointF itemAbsPos = QPointF(pos().x() + round(boundingRect().width() / 2),
                                      pos().y() + round(boundingRect().height() / 2));
 
-        m_props->robotMoved(itemAbsPos.x(), itemAbsPos.y(), rotation());
+        itemAbsPos.setY(2000 - itemAbsPos.y());
+
+        m_props->robotMoved(itemAbsPos.x(), itemAbsPos.y(), -rotation() + 90);
     }
 
     return QGraphicsItem::itemChange(change, value);
